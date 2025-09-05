@@ -935,6 +935,7 @@
                     <li><a href="#" class="nav-link" data-page="donate">Donate</a></li>
                 </ul>
                 <div class="auth-buttons">
+
                     <a href="#" class="btn btn-outline" id="login-btn">Log In</a>
                     <a href="#" class="btn btn-primary" id="signup-btn">Sign Up</a>
                 </div>
@@ -1773,12 +1774,12 @@
             // Handle login/signup buttons
             document.getElementById('login-btn').addEventListener('click', function(e) {
                 e.preventDefault();
-                showNotification('Login functionality would be implemented with a backend.', 'success');
+                window.location.href = 'registration.html';
             });
             
             document.getElementById('signup-btn').addEventListener('click', function(e) {
                 e.preventDefault();
-                showNotification('Signup functionality would be implemented with a backend.', 'success');
+                window.location.href = 'registration.html';
             });
         }
         
